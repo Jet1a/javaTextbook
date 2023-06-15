@@ -15,5 +15,16 @@ public class InputTutorial {
         System.out.print("Your year : "+year);
         System.out.print(" Your age : "+age);
         System.out.println(" Your word : "+name);
+
+        System.out.print("Enter your name : ");
+        String names = sc.nextLine();
+        // String name = sc.next(); ไม่อ่านค่าว่าง
+        System.out.println("Your name is : "+names);
+        // Escape
+        /*
+            \n = new line
+            \t = tab
+        */
+        System.out.println("Hello\nWorld");
     } 
 }

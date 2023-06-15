@@ -8,7 +8,7 @@ public class TypeTest {
         String f = "Hello Type";
         double g = b;
         //output true,false
-        boolean result = a.toString() instanceof String;
+        boolean result = a.toString() instanceof String; //instanceof ทำงานร้วมกับ คลาสเท่านั้น
         boolean results = a instanceof Integer;
         System.out.println(result);
         System.out.println(results);
