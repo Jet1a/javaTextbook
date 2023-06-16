@@ -1,3 +1,4 @@
+package textbook;
 import java.util.Scanner;
 public class InputTutorial {
     public static void main(String[] args) {

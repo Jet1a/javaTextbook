@@ -1,3 +1,4 @@
+package textbook;
 public class TypeTest {
     public static void main(String[] args) {
         Integer a = 1;

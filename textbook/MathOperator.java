@@ -1,3 +1,4 @@
+package textbook;
 import java.util.Scanner;
 public class MathOperator {
     //Operator(symbol) & Operand(variable)
