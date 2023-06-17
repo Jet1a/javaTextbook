@@ -19,6 +19,6 @@ public class NestedIf {
         }else{
             System.out.println("Senior");
         }
-        
+
     }
 }
