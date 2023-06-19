@@ -1,3 +1,4 @@
+package looplopp;
 import java.util.Scanner;
 
 public class NestedIf {

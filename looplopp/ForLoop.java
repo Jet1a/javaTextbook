@@ -1,3 +1,4 @@
+package looplopp;
 public class ForLoop {
     //For Loop(int i = 1;i<=10;i++){
     //คำสั่งเมื่อเงื่อนไขเป็นจริง;
