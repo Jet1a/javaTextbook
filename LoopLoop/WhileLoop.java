@@ -1,4 +1,4 @@
-package looplopp;
+package LoopLoop;
 public class WhileLoop {
     /* ทำศ้ำเรื่อยๆจนกว่าจะเท็จ
      * While

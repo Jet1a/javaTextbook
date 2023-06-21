@@ -1,4 +1,4 @@
-package looplopp;
+package LoopLoop;
 public class DoWhile {
     public static void main(String[] args) {
         // do {

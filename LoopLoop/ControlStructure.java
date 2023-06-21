@@ -1,4 +1,4 @@
-package looplopp;
+package LoopLoop;
 import java.util.Scanner;
 public class ControlStructure {
     public static void main(String[] args) {
