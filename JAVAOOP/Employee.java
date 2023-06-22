@@ -7,6 +7,9 @@ public class Employee {
     private String name;
     private Double salary;
 
+    //Static Attribue
+    static int minSalary=12000;
+    
     //Default Constructor (ชื่อคลาสต้องเหมือนกับชื่อคอนตักเตอร์)
     public Employee(){
 
