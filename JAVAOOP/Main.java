@@ -24,5 +24,18 @@ public class Main {
         Employee e6=new Employee("6", 18500.00);
         e6.displayEmployee();
 
+        //Programmer p1 = new Programmer("Leon",50000.000);
+        //p1.setName("Lucifer Programmer");
+        //p1.setSalary((40000.00));
+        Programmer p1 = new Programmer();
+        p1.skill("Java");
+        Programmer p2 = new Programmer();
+        p2.skill("Java","Python");
+        Programmer p3 = new Programmer();
+        p2.skill("Java","Python","C++","R");                  
+        Account ac = new Account("Adam",30000.00);
+        //ac.setName("Adam");
+        //ac.setSalary(23000.00);
+        ac.displayEmployee();
     }
 }

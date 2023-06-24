@@ -12,11 +12,12 @@ public class Employee {
     
     //Default Constructor (ชื่อคลาสต้องเหมือนกับชื่อคอนตักเตอร์)
     public Employee(){
-
+        System.out.println("Employee!!");
     }
-    public Employee(String id,Double salary){
-        this.id=id;
+    public Employee(String name,Double salary){
+        this.name=name;
         this.salary=salary;
+        displayEmployee();
     }
     public Employee(String id,String name,Double salary){
         //ทำแบบนี้เพื่อไม่ต้องไปใช้อันข้างล่าง
@@ -38,9 +39,9 @@ public class Employee {
     }
     //Display Gather Method 
     public void displayEmployee(){
-            System.out.println("ID = "+this.id);
-            System.out.println("Name = "+this.name);
-            System.out.println("Salary = "+this.salary);
+        System.out.println("ID = "+this.id);
+        System.out.println("Name = "+this.name);
+        System.out.println("Salary = "+this.salary);
     }
     //แสดงแค่บางส่วน
     public String getName(){
