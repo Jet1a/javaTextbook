@@ -7,6 +7,7 @@ package JAVAOOP;
     System.out.println("Skill Coding");
     */
     class Programmer extends Employee{
+
 // Method overloading หน้าที่เหมือนกันแต่ต่างที่พารามีเตอร์
 // Method Overriding กำหนดการทำงานให้เมธอดที่สืบทอด มาจากการถ่ายทอดคุณสมบัติ
 
@@ -21,6 +22,9 @@ package JAVAOOP;
         for(int i=0;i<language.length;i++){
             System.out.println("Skill : "+language[i]+" ");
         }
-
+    }
+    //Overriding Method
+    public void bonus(){
+        System.out.println("Bonus : 30%");
     }
 }

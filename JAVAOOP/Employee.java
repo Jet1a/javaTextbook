@@ -47,4 +47,7 @@ public class Employee {
     public String getName(){
         return this.name;
     }
+    public void bonus(){
+        System.out.println("Bonus : 10%");
+    }
 }

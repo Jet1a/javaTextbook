@@ -37,5 +37,6 @@ public class Main {
         //ac.setName("Adam");
         //ac.setSalary(23000.00);
         ac.displayEmployee();
+        p1.bonus();
     }
 }
