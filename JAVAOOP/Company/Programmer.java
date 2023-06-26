@@ -1,4 +1,4 @@
-package JAVAOOP;
+package JAVAOOP.Company;
 //Inheritance การนิยามคลาสใหม่จากคลาสที่มีอยู่แล้ว
 //การสืบทอดคุณสมบัติจากคลาสแม่มาคลาสลูก
 /* public class Programmer extends Employee {
@@ -24,7 +24,7 @@ package JAVAOOP;
         }
     }
     //Overriding Method
-    public void bonus(){
+    public void bonuss(){
         System.out.println("Bonus : 30%");
     }
 }

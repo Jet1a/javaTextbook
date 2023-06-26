@@ -1,4 +1,4 @@
-package JAVAOOP;
+package JAVAOOP.Company;
 
 public class Encap {
     //การห่อหุ้ม คือการซ่อนรายละเอียดไม่ให้ภายนอกเช้ามาแก้ไข

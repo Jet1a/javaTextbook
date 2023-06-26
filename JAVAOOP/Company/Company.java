@@ -1,4 +1,4 @@
-package JAVAOOP;
+package JAVAOOP.Company;
 
 public class Company {
     // Error casue Final System.out.println(Company.name="Csharp Studio")

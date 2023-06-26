@@ -1,6 +1,6 @@
-package JAVAOOP;
+package JAVAOOP.Company;
 
-public class Employee {
+abstract class Employee {
 
     //Attribute
     private String id;
@@ -49,5 +49,11 @@ public class Employee {
     }
     public void bonus(){
         System.out.println("Bonus : 10%");
+    }
+    // Abstract เป็นคีย์เวิดกำหนดให้เป็นคลาสหรือเมธอดก็ได้
+    // ถ้าเป็น abstract แล้ว ตัวลูกไม่มีไม่สามารถทำงานได้
+
+    // Abstract method คือ เมธอดที่ว่างเปล่าไม่มีการกำหนดรายละเอียด
+    public abstract void bonuss();{
     }
 }

@@ -1,4 +1,4 @@
-package JAVAOOP;
+package JAVAOOP.Company;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,12 +17,6 @@ public class Main {
         Employee e3 = new Employee();
         e3.displayEmployee();
         */
-
-        Employee e4=new Employee("4", "Jason", 50000.00);
-        e4.displayEmployee();
-        Employee e5=new Employee();
-        Employee e6=new Employee("6", 18500.00);
-        e6.displayEmployee();
 
         //Programmer p1 = new Programmer("Leon",50000.000);
         //p1.setName("Lucifer Programmer");
