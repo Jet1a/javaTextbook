@@ -24,5 +24,8 @@ public class StringMethod2 {
         //Delete Space Blank
         name = name.trim();
         System.out.println(name.length());
+        //แปลง Int > String
+        int number = 100;
+        String sum = String.valueOf(number);
     }
 }
