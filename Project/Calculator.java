@@ -31,6 +31,6 @@ public class Calculator {
         }else{
             System.out.println("Invalid Selection!");
         }
-        System.out.println("----- End of Program -----");
+        System.out.println("----- End of Program! -----");
     }
 }
