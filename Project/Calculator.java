@@ -18,16 +18,16 @@ public class Calculator {
         int select = input.nextInt(); 
         if(select == 1){
             double resultAdd=a+b;
-            System.out.println("Result: "+resultAdd);
+            System.out.println(a+" + "+b+" = "+resultAdd);
         }else if(select == 2){
             double resultSub=a-b;
-            System.out.println("Result: "+resultSub);
+            System.out.println(a+" - "+b+" = "+resultSub);
         }else if(select == 3){
             double resultMul=a*b;
-            System.out.println("Result: "+resultMul);
+            System.out.println(a+" * "+b+" = "+resultMul);
         }else if(select == 4){
             double resultDiv=a/b;
-            System.out.println("Result: "+resultDiv);
+            System.out.println(a+" / "+b+" = "+resultDiv);
         }else{
             System.out.println("Invalid Selection!");
         }
