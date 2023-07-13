@@ -1,7 +1,8 @@
+
 import java.util.*;
 import java.io.*;
 
-class ByteShort{
+public class ByteShort{
     public static void main(String []argh)
     {
 
