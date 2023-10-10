@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Block เต็มบรรทัด Inline กว้างเท่าที่แสดง -->
+    <style>
+      table {
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- paragraph -->
+    <p>Hello World</p>
+    <p><b>tag b = Hello World</b></p>
+    <p><u>tag u = Hello World</u></p>
+    <p><i>tag i = Hello World</i></p>
+    <h1><mark>This is Mark Tag</mark></h1>
+    <p>Del tag = <del>Is use for delete</del></p>
+    <p><small>Small tag > Hello World</small></p>
+    <p><strong>Strong tag > Hello World</strong></p>
+    <hr />
+    <!-- Sup tag for top : Sub tag for bottom -->
+    <h2>
+      <mark>E = mc<sup>2</sup></mark>
+    </h2>
+    <hr />
+    <h2>
+      <mark>E = mc<sub>2</sub></mark>
+    </h2>
+  </body>
+  <table border="1" bgcolor="pink" cellpadding="10" cellspacing="5">
+    <!-- หัว -->
+    <thead>
+      <th>ITEM</th>
+      <th>WEAPON</th>
+      <th>POTION</th>
+    </thead>
+    <!-- เนื้อหา -->
+    <tbody>
+      <!-- แถวแนวนอน -->
+      <tr>
+        <!--  กำหนดตอลัมน์ -->
+        <td>Armor</td>
+        <td>Excaliber</td>
+        <td>Healing</td>
+      </tr>
+      <tr>
+        <td>Backpack</td>
+        <td>Iron Sword</td>
+        <td>Posion</td>
+      </tr>
+    </tbody>
+    <tfoot align="center">
+      <tr>
+        <!-- Colspan แนวนอน Rowspan แนวตั้ง -->
+        <td colspan="3">Total</td>
+      </tr>
+    </tfoot>
+  </table>
+  <hr />
+  <span style="color: red">
+    <h1>HTML5</h1>
+    <p>hello hypertext</p>
+  </span>
+  <h1>HTML VIDEO</h1>
+  <video src=""></video>
+  <iframe src="https://www.youtube.com/embed/0hfeNPM7piw" frameborder="0" width="820" height="500"></iframe>
+</html>

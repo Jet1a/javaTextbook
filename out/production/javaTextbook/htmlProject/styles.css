@@ -1,0 +1,44 @@
+body{
+    /* background-color: linear-gradient(to bottom right, red, yellow);  */
+        font-family: monospace;
+        background: rgb(255,208,73);
+        background: linear-gradient(90deg, rgba(255,208,73,1) 0%, rgba(255,245,126,1) 48%, rgba(255,239,178,1) 100%);
+        /* background-repeat: no-repeat; */
+        /* background-image: linear-gradient(to bottom right,rgb(255, 187, 0), yellow); */
+}
+.Header{
+    margin-left: 50px;
+    font-size: x-large;
+}
+.Info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Desc{
+    padding: 50px;
+}
+.Banana{
+    font-size: 80px;
+    transform: scaleY(1.5);
+    line-height: 1.5%;
+}
+.Desc button{
+    padding: 5px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(255, 213, 115);
+}
+.Desc a{
+    text-decoration: none;
+}
+.Desc button a h1{
+    font-size: 20px;
+    padding: 0px 50px;
+    color: white;
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
